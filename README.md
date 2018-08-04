@@ -1,4 +1,4 @@
-#App Deploy
+# App Deploy
 
 This is a very simple Flask application (essentially the hello world example
 that can be found on the [Flask website](http://flask.pocoo.org/), used for the purpose of learning
