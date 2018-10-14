@@ -1,0 +1,20 @@
+<h1>Hello World!</h1>
+
+<br>
+
+<h3>Please enter a name:</h3>
+
+<form method=post>
+{{ form.csrf_token }}
+{{ form.name.label }}
+{{ form.name}}
+{{ form.submit }}
+</form>
+
+
+{% for name in names %}
+    <br>
+    {{ name.name }}
+{% endfor %}
+
+
